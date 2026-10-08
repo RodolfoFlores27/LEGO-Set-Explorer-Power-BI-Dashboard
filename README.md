@@ -2,19 +2,26 @@
 
 An interactive Power BI report that helps users discover and explore LEGO sets by theme group, theme, age range, and price.
 
-## Dashboard
-
-<p align="center">
-  <img src="images/lego-set-finder.png" alt="LEGO Set Finder Power BI Dashboard" width="1000">
-</p>
-
-<p align="center">
-  <img src="images/set-explorer.png" alt="LEGO Set Explorer Power BI Dashboard" width="1000">
-</p>
-
 ## Skills Demonstrated
 
 **Power BI:** Power Query · DAX · Data Modeling · Slicers · Parameters · Tooltips · Bookmarks · Decomposition Trees · Interactive Visual Design
+
+## Dashboard
+
+**Main Dashboard**: Allows users to filter LEGO sets. Users can select an individual set to view additional details.
+<p align="center">
+  <img src="images/lego-set-finder.png" alt="LEGO Set Finder" width="1000">
+</p>
+
+
+
+<br>
+
+**Set Explorer Page**: Offers users the use of a decomposition tree to explore the composition of LEGO sets across the attributes--theme group, theme, category, and set name.
+<p align="center">
+  <img src="images/set-explorer.png" alt="LEGO Set Explorer decomposition tree" width="1000">
+</p>
+
 
 ## Overview
 
@@ -23,31 +30,6 @@ The goal of this project was to build an interactive Power BI report that allows
 I prepared and profiled the LEGO sets dataset, created calculated columns and DAX measures for key metrics, and designed an interactive report with filters for theme group, theme, age range, and maximum price.
 
 The main LEGO Set Finder page allows users to browse matching sets and inspect detailed information for a selected set, while a supplementary Set Explorer page uses a decomposition tree to explore the composition of LEGO sets across different attributes.
-
-## Report Pages
-
-### LEGO Set Finder
-
-<p align="center">
-  <img src="images/lego-set-finder.png" alt="LEGO Set Finder" width="1000">
-</p>
-
-The main report page allows users to filter LEGO sets by:
-
-- Theme group
-- Theme
-- Age range
-- Maximum price
-
-Users can browse matching sets in a table and select an individual set to view additional details, including its image, price, year, piece count, and recommended age.
-
-### Set Explorer
-
-<p align="center">
-  <img src="images/set-explorer.png" alt="LEGO Set Explorer decomposition tree" width="1000">
-</p>
-
-A supplementary exploration page uses a decomposition tree to break down the total number of LEGO sets across different attributes, such as theme group, theme, category, and set name.
 
 ## Key Features
 
@@ -60,21 +42,6 @@ A supplementary exploration page uses a decomposition tree to break down the tot
 - Bookmarks and navigation buttons
 - Decomposition tree for exploratory analysis
 - Cross-filtering and customized visual interactions
-
-## Tools & Skills
-
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Preparation
-- Data Modeling
-- Interactive Report Design
-- Slicers & Parameters
-- Tooltips
-- Bookmarks
-- Page Navigation
-- Decomposition Tree
-- Visual Interactions
 
 ## Dataset
 
